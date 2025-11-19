@@ -8,7 +8,7 @@ const heights2 = [167, 190, 120, 165, 137];
 const lowest = Math.min(...heights2);
 console.log ("lowest number is:", lowest);
 
-//another option লুপ দিয়ে
+//another option while  লুপ দিয়ে
 
 let i = 0;
 let lowest1 = heights2[0];
