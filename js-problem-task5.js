@@ -20,6 +20,6 @@ while (i <= 60) {
     i++;
 
 }
-console.log(even);
-console.log(odd);
+// console.log(even);
+// console.log(odd);
 
