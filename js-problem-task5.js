@@ -3,8 +3,8 @@
 ///*******Task-01, commitment.js********** 
 
             // Subtask-1:
-//"I will invest at least 6 hrs every single day for next 60 days!".
-// this message 60 times. So display this.
+//"I will invest at least 6 hrs every single day for next 60 days!,".
+// this message 60 times. note: Give me even or Odd Number Message separately, So display this.
 
 let i = 1;
 let odd = "";
@@ -20,6 +20,6 @@ while (i <= 60) {
     i++;
 
 }
-// console.log(even);
-// console.log(odd);
+console.log(even);
+console.log(odd);
 
