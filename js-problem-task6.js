@@ -33,9 +33,6 @@ for (let number = 78; number <=98; number++){
 }
 
 
-///////////////////////////////////////////****** */
-
-
 //***********Task-03, sum of odd numbers.js***********
 
             //Subtask-1:
