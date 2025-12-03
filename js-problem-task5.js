@@ -24,8 +24,23 @@ console.log(even);
 console.log(odd);
 
 
+//*******Task-02, odd even.js**********
 
+            // Subtask-1:
+// Find all the odd and even numbers from 61 to 100.
 
+let num = 61;
 
+while (num <= 100) {
+
+    if (num % 2 === 0) {
+        console.log("Even Number:", num);
+    } 
+    else {
+        console.log("Odd Number:", num);
+    }
+
+    num++;
+}
 
 
