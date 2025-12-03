@@ -44,3 +44,25 @@ while (num <= 100) {
 }
 
 
+//***********Task-03, sum of odd numbers.js***********
+
+            //Subtask-1:
+//Display sum of all the odd and even numbers from 91 to 129.
+
+let numbr = 91;
+let oddSum = 0;
+let evenSum = 0;
+
+while (numbr <= 129) {
+
+    if (numbr % 2 === 0) {
+        evenSum = evenSum + numbr;
+    } else {
+        oddSum = oddSum + numbr; 
+    }
+
+    numbr++;
+}
+
+console.log("Sum of all Odd numbers:", oddSum);
+console.log("Sum of all Even numbers:", evenSum);
