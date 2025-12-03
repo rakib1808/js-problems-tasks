@@ -66,3 +66,17 @@ while (numbr <= 129) {
 
 console.log("Sum of all Odd numbers:", oddSum);
 console.log("Sum of all Even numbers:", evenSum);
+
+
+
+//***********Task-04,***********
+
+//Implement a countdown timer that counts down from 81 to 65.
+
+let num1 = 81;
+
+while (num1 >= 65) {
+    console.log("countdown:", num1)
+    num1--;
+}
+console.log("countdoen complete");
