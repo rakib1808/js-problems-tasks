@@ -94,3 +94,22 @@ while (I <= 10) {
 }
 console.log("Total Sum:", total_Sum);
 
+    //or
+    
+while (I <= 10) {
+    console.log(n + '*' + I + '=' + (n * I));
+    total_Sum = (n * I) + total_Sum;
+    I++;
+}
+
+console.log("Total Sum:", total_Sum);
+
+    //or
+    
+while (I <= 10) {
+    console.log(n + '*' + I + '=' + (n * I));
+    total_Sum = (n * I) + total_Sum;
+    I++;
+}
+
+console.log("Total Sum:", total_Sum);
