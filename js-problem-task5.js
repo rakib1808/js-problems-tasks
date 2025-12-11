@@ -2,9 +2,7 @@
 
 ///*******Task-01, commitment.js********** 
 
-            // Subtask-1:
-//"I will invest at least 6 hrs every single day for next 60 days!,".
-// this message 60 times. note: Give me even or Odd Number Message separately, So display this.
+//"I will invest at least 6 hrs every single day for next 60 days!,". this message 60 times. note: Give me even or Odd Number Message separately, So display this.
 
 let i = 1;
 let odd = "";
@@ -26,7 +24,6 @@ console.log(odd);
 
 //*******Task-02, odd even.js**********
 
-            // Subtask-1:
 // Find all the odd and even numbers from 61 to 100.
 
 let num = 61;
@@ -46,7 +43,6 @@ while (num <= 100) {
 
 //***********Task-03, sum of odd numbers.js***********
 
-            //Subtask-1:
 //Display sum of all the odd and even numbers from 91 to 129.
 
 let numbr = 91;
@@ -80,3 +76,21 @@ while (num1 >= 65) {
     num1--;
 }
 console.log("countdoen complete");
+
+
+//****************Task - 05, multiplication table.js************/
+
+//Create a multiplication table for the number 9 and add up the total number of products.
+
+let I = 1;
+let n = 9;
+let total_Sum = 0;
+
+while (I <= 10) {
+    let product = n * I; 
+    console.log(n +'*'+ I + '=' + product);
+    I++;
+    total_Sum = product + total_Sum;
+}
+console.log("Total Sum:", total_Sum);
+
