@@ -19,7 +19,7 @@ console.log ('smallest name is:', smallest);
 
 
 
-// আরও সহজ উপায়ে (for…of দিয়ে)
+// Use Of "for…of"
 
 let small = heights2[0];
 
